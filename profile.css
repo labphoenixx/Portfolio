@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    padding: 0%;
+    margin: 0%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.list{
+    border: 1px gold solid;
+}
+.list li {
+    font-size: 20px;
+    color: white;
+    list-style: none;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    font-family: Calibri;
+    display: inline-block;
+}
+
+.list li a {
+    text-decoration: none;
+    color: white;
+    font-family: Calibri;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.list li a::after {
+    content: ' ';
+    height: 12px;
+    width: 0;
+    background-color: rgb(226, 241, 51);
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    transition: 0.5s;
+}
+
+.list li a:hover::after {
+    width: 100%;
+}
+
+.intro{
+    text-align: center;
+    top: 40%;
+}
+.intro h1{
+    color: aliceblue;
+    font-size: 80px;
+    font-family: Maiandra GD;
+
+}
+.intro h2{
+    color:white;
+    font-family: Maiandra GD;
+    padding: 50px;
+}
+
+.menu{
+    color: aliceblue;
+    background: transparent;
+    text-decoration: none;
+    border: 2px orange solid;
+    padding: 2px;
+    font-size: 20px;
+    font-family: Maiandra GD;
+
+}
+
+.nav{
+    position: relative;
+    padding: 20px 20px 20px 92%;
+}
+
+
+.menu2{
+    color: white;
+    height: 50px;
+    width: 70px;
+    padding: 10px;
+    border: 3px orange solid;
+    border-radius: 15px;
+    text-decoration: none;   
+    position: relative;
+    text-align: center;
+    background-color: transparent;
+}
+
+#li1 a{text-decoration: none;}
+#li3 a{text-decoration: none;}
+#li4 a{text-decoration: none;}
+
+h3{
+    font-size: 35px;
+    color: bisque;
+    padding: 20px;
+}
+.media{
+    font-size: 20px;
+    color: white;
+    list-style: none;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    font-family: Calibri;
+ 
+}
+.media ul{
+    padding: 12px;
+    position: relative;
+    list-style: none;
+}
+.media li{
+    display: inline-block;
+}
+.media li img{
+    width: 30px;
+    height: 30px;
+    padding: 0 15px;
+}

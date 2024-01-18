@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        * {
+            padding: 0%;
+            margin: 0px;
+        }
+
+        .container3 {
+            padding: 0%;
+            margin: 0%;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("bg.jpg");
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            height: 100vh;
+            width: 100%;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .list li {
+            font-size: 20px;
+            color: white;
+            list-style: none;
+            text-align: center;
+            position: relative;
+            padding: 10px;
+            font-family: Calibri;
+            display: inline-block;
+
+
+        }
+
+        .list li a {
+            text-decoration: none;
+            color: white;
+            font-family: Calibri;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .list li a::after {
+            content: ' ';
+            height: 12px;
+            width: 0;
+            background-color: rgb(226, 241, 51);
+            position: absolute;
+            left: 0;
+            bottom: -15px;
+            transition: 0.5s;
+        }
+
+        .list li a:hover::after {
+            width: 100%;
+        }
+
+        iframe {
+            padding: 10px 25%;
+        }
+
+        .maps h2 {
+            font-family: Maiandra GD;
+            font-size: 20px;
+            padding: 5px 25%;
+            color: bisque
+        }
+
+        .maps p {
+            font-family: Maiandra GD;
+            font-size: 15px;
+            padding: 5px 35%;
+            color: bisque
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container3">
+        <div class="sidebar">
+            <!--<div class="nav"><button type="button" , class="menu">Menu</button></div>-->
+            <ul class="list">
+                <li id="li1"><a href="about_me.html">About me</a></li>
+                <li id="li3"><a href="Contact_me.html">Contact me</a></li>
+                <li id="li4"><a href="index.html">Back to Home</a></li>
+            </ul>
+        </div>
+        <br>
+        <div class="maps">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.1654526811726!2d78.56993517493862!3d17.54730768336743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb837607823bc1%3A0x3f3d1675876553f6!2sBITS%20Hyderabad%20Main%20Gate!5e0!3m2!1sen!2sin!4v1705586899952!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h2>Location on Google Maps</h2>
+            <p>Contact<br>via Email: <a href="dummy-email@gmail.com">dummy-email@gmail.com</a><br>
+                or
+                <br>call:+91 91459 16742(fake)
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

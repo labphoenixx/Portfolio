@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <style>
+        * {
+            padding: 0%;
+            margin: 0px;
+        }
+
+        .container1 {
+            padding: 0px;
+            margin: 0px;
+            background-image: linear-gradient(rgb(32, 29, 29), rgb(41, 50, 50), rgb(49, 62, 54));
+            background-attachment: scroll;
+            background-color: rgb(19, 17, 17);
+            height: 100vh;
+            width: 100%;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .list li {
+            font-size: 20px;
+            color: white;
+            list-style: none;
+            text-align: center;
+            position: relative;
+            padding: 10px;
+            font-family: Calibri;
+            display: inline-block;
+
+        }
+
+        .list li a {
+            text-decoration: none;
+            color: white;
+            font-family: Calibri;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .list li a::after {
+            content: ' ';
+            height: 12px;
+            width: 0;
+            background-color: rgb(226, 241, 51);
+            position: absolute;
+            left: 0;
+            bottom: -15px;
+            transition: 0.5s;
+        }
+
+        .list li a:hover::after {
+            width: 100%;
+        }
+
+        h1 {
+            font-family: Calibri;
+            font-size: 50px;
+            color: bisque;
+            text-align: center;
+        }
+
+        .right p {
+            align-items: end;
+            right: 50px;
+            padding: 10px 50px 10px 40%;
+            color: rgb(199, 243, 240);
+            font-size: 20px;
+            font-family: Maiandra GD;
+            width: 600px;
+        }
+
+        .right img {
+            padding: 10px 40% 10px 20%;
+            left: 20%;
+            width: 200px;
+            height: auto;
+        }
+
+        .prog {
+            align-items: center;
+        }
+
+        .prog ul {
+            align-items: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+        }
+
+        .prog ul li {
+            padding: 10px;
+            padding-right: 50px;
+            display: inline-block;
+        }
+
+        .prog ul li img {
+            height: 100px;
+            width: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container1">
+        <div class="sidebar">
+
+            <ul class="list">
+                <li id="li1"><a href="about_me.html">About me</a></li>
+
+                <li id="li3"><a href="Contact_me.html">Contact me</a></li>
+                <li id="li4"><a href="index.html">Back to Home</a></li>
+            </ul>
+        </div>
+        <h1>About Me!</h1>
+        <div class="left">
+            <div class="right">
+                <img src="woman-01.jpg" alt="Woman">
+                <p>I'm Dharshana, an 18-year-old, who is passionate about web-dev.
+                    <br>
+                    I'm an undergrad at BITS Pilani, Hyderabad.
+                    My interest in web-development is due to the various creative opportunities it provides as well as
+                    it's unique solution for each problem.
+                    Web-dev enables the developer to provide solutions for simple day-to-day problems as well as complex
+                    problems.
+                    My interests include playing badminton, pencil shading, paintings etc.
+                </p>
+            </div>
+        </div>
+
+        <div class="prog">
+            <h1>Programming languages I know</h1>
+            <br>
+            <ul>
+                <li><img src="python_img.png" alt="Python"></li>
+                <li><img src="C_logo.jpeg" alt="C"></li>
+                <li><img src="CSS_logo.jpeg" alt="CSS"></li>
+                <li><img src="nodejs_logo.jpeg" alt="Node JS"></li>
+                <li><img src="HTML_pic.jpeg" alt="HTML"></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
